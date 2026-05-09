@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Roboto, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* TotalEnergies branded sidebar */
+.te-sider .ant-layout-sider-children {
+  background: #1A1F71;
+}
+.te-sider .ant-menu {
+  background: #1A1F71 !important;
+}
+.te-sider .ant-menu-item-selected {
+  background: #ED1C24 !important;
+}
+.te-sider .ant-layout-sider-trigger {
+  background: #12165a !important;
+}
+
+/* Header accent */
+.te-header {
+  border-bottom: 3px solid #ED1C24;
+}
+
+/* KPI cards */
+.te-stat-card {
+  border-top: 3px solid #ED1C24;
+  border-radius: 6px;
+}
+.te-stat-card .ant-statistic-title {
+  color: #1A1F71;
+  font-weight: 600;
+}
+.te-stat-card .ant-statistic-content {
+  color: #1A1F71;
+}
+
+/* Table header */
+.ant-table-thead > tr > th {
+  background: #1A1F71 !important;
+  color: #fff !important;
+  font-weight: 600;
+}
+.ant-table-thead > tr > td.ant-table-cell {
+  background: #1A1F71 !important;
+  color: #fff !important;
+}
+
+/* Page titles */
+h2 {
+  color: #1A1F71;
+}
+
+/* Primary button override */
+.ant-btn-primary {
+  background: #ED1C24 !important;
+  border-color: #ED1C24 !important;
+}
+.ant-btn-primary:hover {
+  background: #c81820 !important;
+  border-color: #c81820 !important;
+}
